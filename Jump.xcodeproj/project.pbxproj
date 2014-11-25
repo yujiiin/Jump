@@ -21,6 +21,14 @@
 		21E9738118C4470F0087EDB7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21E9736318C4470F0087EDB7 /* UIKit.framework */; };
 		21E9738918C4470F0087EDB7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 21E9738718C4470F0087EDB7 /* InfoPlist.strings */; };
 		21E9738B18C4470F0087EDB7 /* JumpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E9738A18C4470F0087EDB7 /* JumpTests.m */; };
+		21E9739918C448100087EDB7 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 21E9739418C448100087EDB7 /* menu.png */; };
+		21E9739A18C448100087EDB7 /* platform.png in Resources */ = {isa = PBXBuildFile; fileRef = 21E9739518C448100087EDB7 /* platform.png */; };
+		21E9739B18C448100087EDB7 /* ball_bounce2.png in Resources */ = {isa = PBXBuildFile; fileRef = 21E9739618C448100087EDB7 /* ball_bounce2.png */; };
+		21E9739C18C448100087EDB7 /* ball_bounce1.png in Resources */ = {isa = PBXBuildFile; fileRef = 21E9739718C448100087EDB7 /* ball_bounce1.png */; };
+		21E9739D18C448100087EDB7 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 21E9739818C448100087EDB7 /* ball.png */; };
+		21E973A018C44A780087EDB7 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E9739F18C44A780087EDB7 /* Game.m */; };
+		21E973A218C99AF00087EDB7 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21E973A118C99AF00087EDB7 /* CoreMotion.framework */; };
+		21E973A518CD59890087EDB7 /* Ranking.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E973A418CD59890087EDB7 /* Ranking.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,16 @@
 		21E9738618C4470F0087EDB7 /* JumpTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JumpTests-Info.plist"; sourceTree = "<group>"; };
 		21E9738818C4470F0087EDB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		21E9738A18C4470F0087EDB7 /* JumpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JumpTests.m; sourceTree = "<group>"; };
+		21E9739418C448100087EDB7 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		21E9739518C448100087EDB7 /* platform.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = platform.png; sourceTree = "<group>"; };
+		21E9739618C448100087EDB7 /* ball_bounce2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball_bounce2.png; sourceTree = "<group>"; };
+		21E9739718C448100087EDB7 /* ball_bounce1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball_bounce1.png; sourceTree = "<group>"; };
+		21E9739818C448100087EDB7 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+		21E9739E18C44A780087EDB7 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Game.h; path = ../Game.h; sourceTree = "<group>"; };
+		21E9739F18C44A780087EDB7 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Game.m; path = ../Game.m; sourceTree = "<group>"; };
+		21E973A118C99AF00087EDB7 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		21E973A318CD59890087EDB7 /* Ranking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Ranking.h; path = ../Ranking.h; sourceTree = "<group>"; };
+		21E973A418CD59890087EDB7 /* Ranking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Ranking.m; path = ../Ranking.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21E973A218C99AF00087EDB7 /* CoreMotion.framework in Frameworks */,
 				21E9736218C4470F0087EDB7 /* CoreGraphics.framework in Frameworks */,
 				21E9736418C4470F0087EDB7 /* UIKit.framework in Frameworks */,
 				21E9736018C4470F0087EDB7 /* Foundation.framework in Frameworks */,
@@ -101,6 +120,7 @@
 		21E9735E18C4470F0087EDB7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				21E973A118C99AF00087EDB7 /* CoreMotion.framework */,
 				21E9735F18C4470F0087EDB7 /* Foundation.framework */,
 				21E9736118C4470F0087EDB7 /* CoreGraphics.framework */,
 				21E9736318C4470F0087EDB7 /* UIKit.framework */,
@@ -117,6 +137,10 @@
 				21E9737118C4470F0087EDB7 /* Main.storyboard */,
 				21E9737418C4470F0087EDB7 /* ViewController.h */,
 				21E9737518C4470F0087EDB7 /* ViewController.m */,
+				21E9739E18C44A780087EDB7 /* Game.h */,
+				21E9739F18C44A780087EDB7 /* Game.m */,
+				21E973A318CD59890087EDB7 /* Ranking.h */,
+				21E973A418CD59890087EDB7 /* Ranking.m */,
 				21E9737718C4470F0087EDB7 /* Images.xcassets */,
 				21E9736618C4470F0087EDB7 /* Supporting Files */,
 			);
@@ -127,6 +151,11 @@
 			isa = PBXGroup;
 			children = (
 				21E9736718C4470F0087EDB7 /* Jump-Info.plist */,
+				21E9739418C448100087EDB7 /* menu.png */,
+				21E9739518C448100087EDB7 /* platform.png */,
+				21E9739618C448100087EDB7 /* ball_bounce2.png */,
+				21E9739718C448100087EDB7 /* ball_bounce1.png */,
+				21E9739818C448100087EDB7 /* ball.png */,
 				21E9736818C4470F0087EDB7 /* InfoPlist.strings */,
 				21E9736B18C4470F0087EDB7 /* main.m */,
 				21E9736D18C4470F0087EDB7 /* Jump-Prefix.pch */,
@@ -196,9 +225,12 @@
 		21E9735418C4470F0087EDB7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Yuji Shimizu";
 				TargetAttributes = {
+					21E9735B18C4470F0087EDB7 = {
+						DevelopmentTeam = Q9MY3YHLAW;
+					};
 					21E9737C18C4470F0087EDB7 = {
 						TestTargetID = 21E9735B18C4470F0087EDB7;
 					};
@@ -228,8 +260,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21E9739918C448100087EDB7 /* menu.png in Resources */,
 				21E9737818C4470F0087EDB7 /* Images.xcassets in Resources */,
+				21E9739A18C448100087EDB7 /* platform.png in Resources */,
+				21E9739B18C448100087EDB7 /* ball_bounce2.png in Resources */,
+				21E9739C18C448100087EDB7 /* ball_bounce1.png in Resources */,
 				21E9736A18C4470F0087EDB7 /* InfoPlist.strings in Resources */,
+				21E9739D18C448100087EDB7 /* ball.png in Resources */,
 				21E9737318C4470F0087EDB7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,7 +288,9 @@
 			files = (
 				21E9737618C4470F0087EDB7 /* ViewController.m in Sources */,
 				21E9737018C4470F0087EDB7 /* AppDelegate.m in Sources */,
+				21E973A518CD59890087EDB7 /* Ranking.m in Sources */,
 				21E9736C18C4470F0087EDB7 /* main.m in Sources */,
+				21E973A018C44A780087EDB7 /* Game.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,7 +344,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -344,7 +382,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -378,10 +415,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Jump/Jump-Prefix.pch";
 				INFOPLIST_FILE = "Jump/Jump-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -391,10 +431,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Jump/Jump-Prefix.pch";
 				INFOPLIST_FILE = "Jump/Jump-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -402,7 +445,6 @@
 		21E9739218C4470F0087EDB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Jump.app/Jump";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -425,7 +467,6 @@
 		21E9739318C4470F0087EDB7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Jump.app/Jump";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -460,6 +501,7 @@
 				21E9739018C4470F0087EDB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21E9739118C4470F0087EDB7 /* Build configuration list for PBXNativeTarget "JumpTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +510,7 @@
 				21E9739318C4470F0087EDB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
